@@ -1,0 +1,43 @@
+{
+    "projects": [{
+        "name": "Rick and Morty APP",
+        "description": "Esta Single Page Application (SPA) ha sido diseñada y desarrollada con el fin de poder visualizar información detallada de videojuegos utlizando una API externa la cual brinda información de +1000 videojuegos. El usuario es capaz de realizar una búsqueda sobre su videojuego favorito y encontrar información adicional al respecto, también es capaz de añadir o crear una card del videojuego que desee.",
+        "participants": "Autónomo",
+        "duration": "04/2023 - 04/2023 (1 mes)",
+        "images": [],
+        "technologies": []
+    },{
+        "name": "Videogames APP",
+        "description": "Esta Single Page Application (SPA) ha sido diseñada y desarrollada con el fin de poder visualizar información detallada de videojuegos utlizando una API externa la cual brinda información de +1000 videojuegos. El usuario es capaz de realizar una búsqueda sobre su videojuego favorito y encontrar información adicional al respecto, también es capaz de añadir o crear una card del videojuego que desee.",
+        "participants": "Autónomo",
+        "duration": "04/2023 - 04/2023 (1 mes)",
+        "links": {
+            "yt": "",
+            "deploy": ""
+        },
+        "images": [],
+        "technologies": []
+    },{
+        "name": "Finder Service",
+        "description": "",
+        "participants": "Grupal (6 integrantes)",
+        "duration": "05/2023 - 06/2023 (2 meses)",
+        "links": {
+            "yt": "https://www.youtube.com/watch?v=EicCl16HXMM",
+            "deploy": "https://finder-service-bice.vercel.app/"
+        },
+        "images": [],
+        "technologies": []
+    },{
+        "name": "PicsArt Gallery",
+        "description": "",
+        "participants": "Autónomo",
+        "duration": "07/2023 - 09/2023 (3 meses)",
+        "links": {
+            "yt": "",
+            "deploy": "https://picsart-gallery.vercel.app/"
+        },
+        "images": [],
+        "technologies": []
+    }]
+}

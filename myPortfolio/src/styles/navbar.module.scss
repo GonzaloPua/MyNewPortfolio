@@ -1,0 +1,20 @@
+.globalCont{
+    width: 100%;
+    background-color:rgb(18, 16, 23);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.logo{
+    width: 50%;
+}
+.menulinks{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
