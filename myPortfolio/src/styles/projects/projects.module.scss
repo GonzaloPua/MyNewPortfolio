@@ -1,0 +1,93 @@
+.globalCont{
+    display: flex;
+    flex-direction: column;
+    h1{
+        margin-bottom: 2rem;
+    }
+}
+
+.contAllCards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contCard{
+    background-color:rgb(46, 46, 46);
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    p{  
+        font-size:small;
+        width: 100%;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+    }
+}
+
+.contImg{
+    width: 100%;
+    height: 50%;
+}
+.projectImg{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.contInfoCard{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contTechs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgsTech{
+    background-color: beige;
+    border-radius: 100%;
+    padding: 3px;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.contButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    button{
+        font-size: 13px;
+        font-weight: bold;
+        background-color: rgb(170, 170, 170);
+        text-decoration: none;
+        border: none;
+        border-radius: 0.75rem;
+        padding: 10px;
+        width: 45%;
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover{
+            background-color: white;
+            cursor: pointer;  
+        }
+    }
+}
