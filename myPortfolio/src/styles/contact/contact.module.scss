@@ -1,0 +1,107 @@
+.globalCont{
+    border-radius: 1rem;
+    padding: 3rem;
+    width: 100%;
+    background-color:black;
+    h1{
+        margin-bottom: 1rem;
+    }
+}
+
+.contForm{
+    display: flex;
+    flex-direction: column;
+    h5{
+        color: rgb(255, 63, 63); 
+    }
+}
+
+.contInputs{  
+    display: flex;
+}
+
+.contTextLabel{
+    width: 50%;
+}
+
+.contLabel{
+    margin-bottom: 8px;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.contOneInput{
+    margin-bottom: 1rem;
+    padding-right: 5rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    input{
+        height: 2rem;
+        padding-left: 1rem;
+    }
+    h5{
+        color: rgb(255, 63, 63)
+    }
+}
+
+.contTextarea{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    textarea{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;    
+    }
+}
+
+.contButton{
+    width: 100%;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+
+    button{
+        background-color:#575757;
+        border: 1px solid #ffffff;
+        border-radius: 0.75rem;
+        font-weight: bold;
+        width: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover{
+            cursor: pointer;
+            color:black;
+            background-color: white;
+        }
+    }
+}
+
+.contDisButton{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+    button{
+        background-color:#575757;
+        border: 1px solid #ffffff;
+        border-radius: 0.75rem;
+        font-weight: bold;
+        width: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+}

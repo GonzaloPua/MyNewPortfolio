@@ -1,0 +1,23 @@
+.globalCont{
+    width: 100%;
+    user-select: none;
+    pointer-events: none;
+    padding-bottom: 5rem;
+    h1{
+        margin-bottom: 1rem;
+    }
+    h2{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }   
+}
+
+.contAllCards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contCard{
+    margin: 1rem;
+}
