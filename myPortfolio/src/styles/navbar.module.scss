@@ -16,5 +16,21 @@
 .menulinks{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 4rem;
+
+        transition-property: all;
+        transition-duration: 200ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover{
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+    }
 }
