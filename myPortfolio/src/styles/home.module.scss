@@ -11,6 +11,7 @@
 
 /* Profile ------------------  */
 .contProfile{
+    user-select: none;
     width: 100%;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -26,6 +27,12 @@
     width: 40%;
     display: flex;
     justify-content: center;
+}
+.ImgProfilePic{
+    user-select: none;
+    pointer-events: none;
+    border: 5px solid rgb(255, 174, 98);
+    border-radius: 100%;
 }
 
 .contName{

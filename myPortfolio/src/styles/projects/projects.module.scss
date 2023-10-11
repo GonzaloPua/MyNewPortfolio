@@ -10,6 +10,7 @@
 .contAllCards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .contCard{
@@ -83,7 +84,7 @@
     font-weight: bold;
     background-color: rgb(170, 170, 170);
     text-decoration: none;
-    border: none;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 0.75rem;
     width: 3rem;
     height: 2rem;
