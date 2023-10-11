@@ -1,3 +1,4 @@
+"use client";
 import home from '@/styles/home.module.scss';
 import Description from '@/components/Description/Description';
 import ProfileInfo from '@/components/ProfileInfo/ProfileInfo';
