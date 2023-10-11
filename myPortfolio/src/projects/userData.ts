@@ -1,6 +1,7 @@
-export default {
+const arrayData = {
     projects: [
-        {
+        {   
+            id: "5",
             name: "My Portfolio",
             description: "Portfolio personal en dónde se encuentra ubicada toda la información acerca de mí y de mis proyectos. También se puede encontrar las tecnologías con las que estoy trabajando actualmente, podrás descargar mi CV y ponerte en contacto conmigo.",
             participants: "Autónomo",
@@ -18,11 +19,17 @@ export default {
                 "https://res.cloudinary.com/djngnnxvp/image/upload/v1696607546/personal_folder/techLogos/nodemailer_f2rqxc.png"     
             ],
             images:[
-                "https://res.cloudinary.com/djngnnxvp/image/upload/v1696551329/personal_folder/homePicsArt_d6xnwn.jpg"
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697036679/personal_folder/ProjectsImgs/Portfolio/portfolio1_ak0bzx.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697036680/personal_folder/ProjectsImgs/Portfolio/portfolio1b_oqzg4v.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697036680/personal_folder/ProjectsImgs/Portfolio/portfolio2_hslvtp.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697036681/personal_folder/ProjectsImgs/Portfolio/portfolio3_oa18m2.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697036682/personal_folder/ProjectsImgs/Portfolio/portfolio4_vfbsq6.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697036683/personal_folder/ProjectsImgs/Portfolio/portfolio5_z5oxxw.jpg"
             ]
         },{
+            id: "4",
             name: "PicsArt Gallery",
-            description: "sadsda",
+            description: "Single Page Aplication (SPA) desarrollada para el almacenamiento de imágenes subidas por usuarios y, que a su vez, estás pueden ser visualizadas por otros con el fin de poder compartirlas. Cada usuario puede registrarse e iniciar sesión, también los usuarios cuentan con su propio perfil con sus respectivas imágenes subidas y su respectiva información detallada. Cada imagen subida y encontrada mediante una búsqueda posee información específica o detallada en donde puede visualizarse.",
             participants: "Autónomo",
             duration: "07/2023 - 09/2023 (3 meses)",
             links: {
@@ -47,11 +54,26 @@ export default {
                 "https://res.cloudinary.com/djngnnxvp/image/upload/v1696866691/personal_folder/techLogos/Axios_aulbag.png"
             ],
             images:[
-                "https://res.cloudinary.com/djngnnxvp/image/upload/v1696551329/personal_folder/homePicsArt_d6xnwn.jpg"
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1696551329/personal_folder/homePicsArt_d6xnwn.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035675/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart1_z1yq7n.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035675/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart2_g0z8xf.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035675/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart3_hzis29.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035676/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart4_qpcart.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035676/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart5_kkcjza.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035675/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart6_qwiy4e.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035676/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart7_jccakf.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697035675/personal_folder/ProjectsImgs/PicsArt_Gallery/picsart8_mbhvoc.jpg"
             ]
         },{
+            id: "3",
             name: "Finder Service",
-            description: "asdasd",
+            description: `Aplicación diseñada y desarrollada como una Single Page Application (SPA) de forma Grupal (6 integrantes).
+            Esta aplicación web se realizó con el fin de poder brindarles a los usuarios la posibilidad de poder encontrar trabajo, sólo del estilo hogareño, del rubro en el que destaquen.\n\n
+            El usuario puede registrarse e iniciar sesión como 'Worker' o 'Employer', cada tipo de usuario tendrá su respectivo 'Home' y sus respectivas interacciones para con otros usuarios.\n\n
+            Del lado de los 'Employers', estos podrán crear una oferta de trabajo destinados a ciertos 'Workers' que estén especializados en el área de la oferta (por ejemplo, jardinero u obrero).
+            También podrán visualizar y aceptar a los postulados que deseen en cada oferta de trabajo que hayan creado.\n\n
+            En cambio, del lado de los 'Workers', estos usuarios podrán postularse a los trabajos que deseen siempre y cuando, su especialidad y el área de trabajo que figure en la oferta, sea la misma.
+            Los 'Workers' también podrán visualizar sus postulación en dónde sabrán si todavía la vacante sigue vigente o si esta ya ha sido finalizada.`,
             participants: "Grupal (6 integrantes)",
             duration: "05/2023 - 06/2023 (2 meses)",
             links: {
@@ -81,6 +103,7 @@ export default {
                 "https://res.cloudinary.com/djngnnxvp/image/upload/v1696552153/personal_folder/HomeEmployer_mplrka.jpg"
             ]
         },{
+            id: "2",
             name: "Videogames APP",
             description: "Esta Single Page Application (SPA) ha sido diseñada y desarrollada con el fin de poder visualizar información detallada de videojuegos utlizando una API externa la cual brinda información de +1000 videojuegos. El usuario es capaz de realizar una búsqueda sobre su videojuego favorito y encontrar información adicional al respecto, también es capaz de añadir o crear una card del videojuego que desee.",
             participants: "Autónomo",
@@ -108,8 +131,9 @@ export default {
                 "https://res.cloudinary.com/djngnnxvp/image/upload/v1696551299/personal_folder/postVideo_wxkm41.jpg"
             ]
         },{
+            id: "1",
             name: "Rick and Morty APP",
-            description: "Esta Single Page Application (SPA) ha sido diseñada y desarrollada con el fin de poder visualizar información detallada de videojuegos utlizando una API externa la cual brinda información de +1000 videojuegos. El usuario es capaz de realizar una búsqueda sobre su videojuego favorito y encontrar información adicional al respecto, también es capaz de añadir o crear una card del videojuego que desee.",
+            description: "Mi primera Single Page Application (SPA). Utilizando una API externa para poder gestionar información específica, esta aplicación está basada en la famosa serie de Rick & Morty, en ella se puede visualizar información detallada sobre todos los personajes.",
             participants: "Autónomo",
             duration: "02/2023 - 04/2023 (2 meses)",
             links: {
@@ -128,6 +152,8 @@ export default {
                 "https://res.cloudinary.com/djngnnxvp/image/upload/v1696607545/personal_folder/techLogos/htmllogo_y14k0b.png"
             ],
             images: [
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1692936028/cld-sample-3.jpg",
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1692936028/cld-sample-3.jpg",
                 "https://res.cloudinary.com/djngnnxvp/image/upload/v1692936028/cld-sample-3.jpg"
             ]
         }
@@ -175,3 +201,5 @@ export default {
         ]
     }
 }
+
+export default arrayData;
