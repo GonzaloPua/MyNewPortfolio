@@ -3,14 +3,14 @@ import home from '@/styles/home.module.scss';
 
 const Description = () => {
     return (
-        <div className={home.contDescription}>
+        <div id='description' className={home.contDescription}>
             <div className={home.contInfo}>
                 <h1>Información Personal</h1>
                 <br/>
                 <h3>Desarrollador Full Stack  & Técnico Electrónico.</h3>
                 <br/> 
                 <p>
-                    Con estudios finalizados como "Full Stack Developer", 
+                    Con estudios finalizados como &quot;Full Stack Developer&quot;, 
                     he obtenido experiencia mediante proyectos tanto individuales como grupales 
                     en el desarrollo Front-End y en el desarrollo Back-End. Como desarrollador, disfruto desafiando mis límites y 
                     explorando nuevas tecnologías para ofrecer soluciones efectivas.
