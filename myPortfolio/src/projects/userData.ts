@@ -152,9 +152,7 @@ const arrayData = {
                 "https://res.cloudinary.com/djngnnxvp/image/upload/v1696607545/personal_folder/techLogos/htmllogo_y14k0b.png"
             ],
             images: [
-                "https://res.cloudinary.com/djngnnxvp/image/upload/v1692936028/cld-sample-3.jpg",
-                "https://res.cloudinary.com/djngnnxvp/image/upload/v1692936028/cld-sample-3.jpg",
-                "https://res.cloudinary.com/djngnnxvp/image/upload/v1692936028/cld-sample-3.jpg"
+                "https://res.cloudinary.com/djngnnxvp/image/upload/v1697038736/personal_folder/ProjectsImgs/RyM/rym1_cy1aah.jpg"
             ]
         }
     ],
