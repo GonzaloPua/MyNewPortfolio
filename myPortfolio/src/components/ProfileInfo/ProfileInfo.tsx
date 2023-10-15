@@ -15,7 +15,7 @@ const ProfileInfo = () => {
                 <h2>Full Stack Developer</h2>
                 <p>Desarrollando ideas y plasmándolas en la realidad a través de código y soluciones.</p>
                 <div className={home.contButtons}>
-                    <Link className={home.contLinks} href="https://drive.google.com/u/1/uc?id=1932HOZ4Rd43imh-kfaQF7vI3DO_CA5lY&export=download" target="_blank" rel="noopener noreferrer">
+                    <Link className={home.contLinks} href="https://drive.google.com/file/d/1jML1zWajoT-fqVEbSlysqQ7kvxn0dTEL/view" target="_blank" rel="noopener noreferrer">
                         <div className={home.contButton}>
                             <AiOutlineCloudDownload />
                             <h5>Descargar CV</h5>
